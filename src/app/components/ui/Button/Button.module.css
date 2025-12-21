@@ -1,0 +1,46 @@
+.button {
+  border: none;
+  border-radius: 60px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 64px;
+  gap: 6px;
+  padding-right: 30px;
+}
+
+
+.icon{
+  background: #544b46;
+  color: #fff;
+  padding-left: clamp(20px, 8vw ,26px);
+}
+
+@media (max-width: 1280px) {
+  .button {
+    width: 153px;
+    height: 60px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .button {
+    width: 153px;
+    height: 54px;
+  }
+}
+
+@media (max-width: 375px) {
+  .button {
+    width: 139px;
+    height: 48px;
+  }
+}
+
+
