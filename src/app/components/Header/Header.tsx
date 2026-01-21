@@ -86,15 +86,6 @@ const Header = () => {
                                 ]}
                             />
                         </div>
-                        <button
-                            className={styles.burger}
-                            onClick={() => setMenuOpen(true)}
-                            aria-label="Открыть меню"
-                        >
-                            <span />
-                            <span />
-                            <span />
-                        </button>
                         <nav className={styles.nav}>
                             <Dropdown 
                                 label='О клинике'
@@ -111,6 +102,15 @@ const Header = () => {
                             <a href="#">Контакты</a>
                         </nav>
                     </div>
+                    <button
+                            className={styles.burger}
+                            onClick={() => setMenuOpen(true)}
+                            aria-label="Открыть меню"
+                        >
+                            <span />
+                            <span />
+                            <span />
+                    </button>
                     <div className={styles.right}>
                         <div className={styles.phone}>+7(423)265-89-50</div>
                         <Image 

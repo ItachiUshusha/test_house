@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { velaSans } from './fonts';
 import "./globals.css";
 import Header from "@/app/components/Header/Header";
+import Values from "@/app/components/Main/Valuse/Values"
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="ru">
       <body className={velaSans.className}>
         <Header />
+        <Values />
         {children}
       </body>
     </html>
