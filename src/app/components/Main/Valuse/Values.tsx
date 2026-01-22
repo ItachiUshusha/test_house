@@ -25,7 +25,7 @@ const Values = () => {
                             вправе расчитывать на лечение у лучших докторов
                             с применением новейших технологий и передовых методик</div>
                     </div>
-                    <img src="./cards/teeth.svg" alt="" />
+                    <img src="./cards/microscop.svg" alt="" />
                 </span>
                 <span className={styles.card}>
                     <p>02</p>
@@ -35,7 +35,7 @@ const Values = () => {
                             вправе расчитывать на лечение у лучших докторов
                             с применением новейших технологий и передовых методик</div>
                     </div>
-                    <img src="./cards/microscop.svg" alt="" />
+                    <img src="./cards/teeth.svg" alt="" />
                 </span>
                 <span className={styles.card}>
                     <p>04</p>

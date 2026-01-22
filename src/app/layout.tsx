@@ -3,6 +3,7 @@ import { velaSans } from './fonts';
 import "./globals.css";
 import Header from "@/app/components/Header/Header";
 import Values from "@/app/components/Main/Valuse/Values"
+import News from "@/app/components/News/News";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body className={velaSans.className}>
         <Header />
         <Values />
+        <News />
         {children}
       </body>
     </html>

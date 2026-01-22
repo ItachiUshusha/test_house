@@ -1,0 +1,9 @@
+.carousel{
+    overflow: hidden;
+    width: 100%;
+}
+
+.track {
+  display: flex;
+  gap: 24px;
+}

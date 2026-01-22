@@ -20,6 +20,7 @@
 
 .card p{
     font-size: 18px;
+    font-weight: 600;
     color: #D4B496;
     margin: 0;
     padding: clamp(53px, 2.97vw + 15px, 72px) clamp(50px, 3.1vw, 69px) 0 clamp(40px, 17.19vw - 180px, 150px);
@@ -27,10 +28,20 @@
 
 .h_cards{
     font-size: 28px;
-    padding-top: clamp(50px, 3.1vw, 69px);
+    font-weight: 600;
+    padding-top: clamp(50px, 3.6vw, 69px);
+    padding-bottom: clamp(15px, 1.4vw, 25px)
 }
 
 .cards_text{
+    width: clamp(328px, 21vw, 400px);
+    height: clamp(77px, 4.4vw, 84px);
     font-size: 15px;
+    color: rgba(90, 88, 87, 0.64);
+    line-height: 170%;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;       /* количество строк */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
-
