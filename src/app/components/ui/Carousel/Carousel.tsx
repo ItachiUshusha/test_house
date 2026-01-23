@@ -10,8 +10,14 @@ const Carousel = ({children}: Props) =>{
     return(
         <div className={styles.carousel}>
             <div className={styles.track}>
-                {children}
+                {Array.isArray(children) && 
+                children.map((child, index) => (
+                    <div key={index} className={styles.slide}>
+                        {child}
+                    </div>
+                ))}
             </div>
+            <button> → </button>
         </div>
     )
 }

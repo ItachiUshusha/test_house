@@ -3,7 +3,15 @@
     width: 100%;
 }
 
-.track {
+.track{
   display: flex;
   gap: 24px;
+}
+
+.slide{
+  flex: 0 0 339px;
+}
+
+.slide img{
+    border-radius: 12px;
 }
